@@ -1,0 +1,100 @@
+.sidebar {
+  flex: 0.2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #181818;
+  border-right: 1px solid rgba(211, 211, 211, 0.596);
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 50px;
+}
+
+.sidebar-avatar {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.sidebar-header p {
+  color: white;
+}
+
+.sidebar-input {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  flex: 1;
+  background-color: #404040;
+  color: gray;
+  border-radius: 20px;
+}
+
+.sidebar-input input {
+  border: none;
+  background: transparent;
+  outline-width: 0;
+  color: #ffffffe3;
+}
+
+.sidebar-add {
+  color: gray;
+}
+
+.sidebar-input:hover {
+  color: darkgray;
+  transition: 0.2s ease-in;
+}
+
+.sidebar-chats {
+  overflow: scroll;
+}
+.sidebar-chats::-webkit-scrollbar {
+  display: none;
+}
+
+.sidebar-chats {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.sidebar-addChatModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-addChatModalContainer {
+  background-color: #404040;
+  color: #ffffff;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px;
+  width: 100%;
+  max-width: 600px;
+}
+
+.sidebar-addChatModalContainer label {
+  color: #ffffff;
+}
+
+.sidebar-addChatModalContainer id {
+  color: gray;
+}
+
+.sidebar-addChatModalContainer button {
+  margin-top: 20px;
+  text-transform: inherit !important;
+  background-color: #3cabfa;
+  color: #ffffff;
+}
+
+.sidebar-addChatModalContainer button:hover {
+  background-color: #3e93fd;
+}
